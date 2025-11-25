@@ -2,6 +2,8 @@
 
 ## Motivation
 
+<!-- ![Image failed to load](/img/pipeline.jpg "Two stage pipeline") -->
+
 Current **optical character recognition (OCR)** technology has achieved near-perfect performance in many industrial application scenarios. However, in some situations, large amounts of noise exist in addition to the textual information we care about, and the target text is often submerged within complex environmental information. This poses challenges for directly applying OCR models.
 
 For example, in photos taken with a camera, the text to be recognized may occupy only a very small area and may appear at a tilted angle. The target text may also be mixed with other text (that we don't care about) in the environment. In scanned images of specific types of documents, our requirement may be to extract only particular information—such as a document ID—which often has unique visual features. An OCR model will treat all text equally, making post-processing difficult.
