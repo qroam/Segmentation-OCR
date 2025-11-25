@@ -1,5 +1,7 @@
 # A Segmentation-OCR Two Stage Pipeline
 
+中文版：[README_zh.md](https://github.com/qroam/Segmentation-OCR/blob/main/README_zh.md)
+
 ## Motivation
 
 <!-- ![Image failed to load](/img/pipeline.jpg "Two stage pipeline") -->

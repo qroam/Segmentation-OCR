@@ -1,5 +1,7 @@
 # 实例分割-光学字符识别（OCR）两阶段系统
 
+English Version README:[README.md](https://github.com/qroam/Segmentation-OCR/blob/main/README.md)
+
 ## 动机
 
 <!-- ![图片未加载](/img/pipeline.jpg "Two stage pipeline") -->
