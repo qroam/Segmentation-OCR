@@ -1,10 +1,10 @@
 # A Segmentation-OCR Two Stage Pipeline
 
-中文版：[README_zh.md](https://github.com/qroam/Segmentation-OCR/blob/main/README_zh.md)
+**中文版说明：** [README_zh.md](https://github.com/qroam/Segmentation-OCR/blob/main/README_zh.md)
 
 ## Motivation
 
-<!-- ![Image failed to load](/img/pipeline.jpg "Two stage pipeline") -->
+![Image failed to load](/img/demo.jpg "Two stage pipeline")
 
 Current **optical character recognition (OCR)** technology has achieved near-perfect performance in many industrial application scenarios. However, in some situations, large amounts of noise exist in addition to the textual information we care about, and the target text is often submerged within complex environmental information. This poses challenges for directly applying OCR models.
 

@@ -1,10 +1,10 @@
 # 实例分割-光学字符识别（OCR）两阶段系统
 
-English Version README:[README.md](https://github.com/qroam/Segmentation-OCR/blob/main/README.md)
+**English Version README:** [README.md](https://github.com/qroam/Segmentation-OCR/blob/main/README.md)
 
 ## 动机
 
-<!-- ![图片未加载](/img/pipeline.jpg "Two stage pipeline") -->
+![图片未加载](/img/demo.jpg "Two stage pipeline")
 
 当今光学字符识别（OCR）技术在行业应用场景中已经实现了近乎完美的水平。然而，在一些场景中，除了我们所关注的文本信息之外还存在大量的噪声，关注的文本信息被淹没在环境信息中，这对直接使用OCR模型带来了挑战。例如，在拍摄的照片中，待识别的文本可能所占面积很小，且角度为倾斜的；待识别的文本可能与环境中其他文本混杂在一起，OCR模型会将它们一视同仁地识别出来，这给后处理带来了困难；在特定类型文档的扫描件中，可能需求只是抽取特定的信息，例如文档编号，而它们往往具备特定的视觉特征。此时，非常有必要将实例分割和光学字符识别结合起来，形成一个两阶段系统。由在特定数据上定制的实例分割模型从输入图片中精确地框选出所需要识别的文字实例，再交给OCR模型识别，能够很大程度地提升这类任务上的性能，这样也有利于实现文档内容基于视觉特征的结构化抽取。
 
